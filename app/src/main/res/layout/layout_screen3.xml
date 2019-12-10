@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_text"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/layout_include_video"
+            layout="@layout/layout_video_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/search_opaque">
+
+        </View>
+
+        <include
+            android:id="@+id/layout_include_video"
+            layout="@layout/layout_video_image_section3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/search_opaque">
+
+        <TextView
+            android:id="@+id/tv_section_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="20dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Below Text Welcome"
+            android:textColor="@color/default_background"
+            android:textSize="40sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

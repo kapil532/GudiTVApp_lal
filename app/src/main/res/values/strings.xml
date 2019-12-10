@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GudiTVApp</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Login -->
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_user_name">Enter User Name</string>
+    <string name="hint_lacation">Enter Location</string>
+    <string name="hint_password">Enter Password</string>
+
+    <string name="error_msg_name">Please enter name</string>
+    <string name="error_msg_username">Please enter user name</string>
+    <string name="error_msg_location">Please enter location</string>
+    <string name="error_msg_password">Please enter password</string>
+
+
+</resources>

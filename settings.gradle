@@ -1,0 +1,2 @@
+include ':app', ':locationlib'
+rootProject.name='GudiTVApp'
